@@ -25,8 +25,8 @@ export default function Home({session}) {
           <span className="span-tag">Sign in to your account</span>
           <div className="social">
             <div>
-              <a href="dashboard">
-                <button className="hover:bg-blue-500 hover:text-white">
+              <a>
+                <button className="hover:bg-blue-500 hover:text-white" onClick={()=>signIn()}>
                 <Image src={google} alt="google" />
                 <span>Sign in with Google</span>
                 </button>
